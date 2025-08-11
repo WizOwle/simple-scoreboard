@@ -1,0 +1,82 @@
+:root {
+    --grey : #EEEEEE;
+    --red: #F94F6D;
+    --black: #080001;
+    --score-btn-radius: 2px;
+    --score-box-radius: 5px;
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: var(--grey);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+h3{
+    font-size: 40px;
+    margin: 0px;
+}
+
+.score-box{
+    background-color: var(--black);
+    max-width: 155px;
+    height: 120px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: var(--red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    padding: 0px 20px 0px 18px;
+    border-radius: var(--score-box-radius);
+}
+
+.score{
+    font-size: 90px;
+    line-height: 126px;
+    height: 120px;
+    position: relative;
+    bottom: -5px;
+}
+
+.btn-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+    gap: 8px;
+}
+
+.score-btn {
+    color: #9AABD8;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: var(--score-btn-radius);
+    width: 45px;
+    height: 45px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.score-btn {
+    color: #9AABD8;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: var(--score-btn-radius);
+    width: auto;
+    height: auto;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin: 0px auto;
+}
